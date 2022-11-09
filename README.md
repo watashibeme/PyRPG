@@ -1,4 +1,5 @@
 # PyRpg
 PyRpg(Python Random Password Generator)
 
-ایجاد رمز تصادفی با الگوریتم و مقدار دلخواه با استفاده از پایتون
+[FA]ایجاد رمز تصادفی با  تعداد دلخواه ارقام با استفاده از پایتون
+[EN] Generate a random password with desired number of characters
