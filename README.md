@@ -1,5 +1,5 @@
-# PyRpg
-PyRpg(Python Random Password Generator)
+# PyRPG
+PyRPG(Python Random Password Generator)
 
 [FA]
 ایجاد رمز تصادفی با  تعداد دلخواه ارقام با استفاده از پایتون
