@@ -15,7 +15,7 @@ pwd_length = (pyinputplus.inputInt())
 # generate a password string
 pwd = ''
 for i in range(pwd_length):
-    # keep choosing from values in alphabet until it equals pwd_length
+    # keep choosing  values from alphabet variable, one by one, until it equals pwd_length
     pwd += ''.join(secrets.choice(alphabet))
 
 print("Here's your password")
