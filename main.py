@@ -33,7 +33,7 @@ print("Here's your password")
 print(pwd)
 xerox.copy(pwd)
 print("password has been copied to clipboard!")
-print("do you want to generate another password? t(rue) / f(alse)")
+print("do you want to generate another password? t(meaning YES) / f(meaning NO)")
 answer = pyinputplus.inputBool()
 
 
