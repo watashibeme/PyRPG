@@ -16,6 +16,7 @@ PyRPG(Python Random Password Generator)
 
 [EN]
 Things that it can do:
+
 generate password with desired number of characters taken from user input
 
 ask user if he/she wants to generate even more password(s) and act accordingly
