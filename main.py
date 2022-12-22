@@ -12,7 +12,7 @@ from random import *
 alphabet = string.ascii_letters + string.digits + string.punctuation
 osdetect = platform.system() + platform.release()
 print("what do you want to do? \n "
-      "1 - generate a password"
+      "1 - generate a password \n "
       "2 - encrypt / decrypt a sentence")
 option = pyinputplus.inputInt()
 
