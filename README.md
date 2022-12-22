@@ -12,7 +12,11 @@ PyRPG(Python Random Password Generator)
 
 کپی کردن خودکار رمز به کلیپ برد
 
-شناسایی سیستم عامل مورد استفاده(آماده سازی برای اینکه اگر زمانی کپی رمز به کلیپ بورد کار نداد,از روش های دیگر استفاده شود)
+شناسایی سیستم عامل مورد استفاده
+
+رمزنگاری و رمزگشایی متن ورودی توسط کاربر با استفاده از یک الگوریتم ابداعی
+
+کپی کردن متن رمزنگاری شده به کلیپ بورد برای راحتی و اگر نیاز بود که دوباره در رمزگشایی استفاده شود
 
 [EN]
 Things that it can do:
@@ -23,4 +27,6 @@ ask user if he/she wants to generate even more password(s) and act accordingly
 
 auto-copy the password to clipboard after passsword generation
 
-detect OS(preperaing in case that there is a problem with auto-copy, will try to come up with other methods,still WIP)
+detect OS
+
+copy encrypted text to clipboard for ease of use , in case its needed to be re-used in later stage(eg . in decryption)
