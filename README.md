@@ -29,4 +29,6 @@ auto-copy the password to clipboard after passsword generation
 
 detect OS
 
+encrypt and decrypt text from user input, based on a homemade algorithm(not a real algorithm, more like a bunch of code)
+
 copy encrypted text to clipboard for ease of use , in case its needed to be re-used in later stage(eg . in decryption)
