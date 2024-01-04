@@ -56,11 +56,16 @@ def save_preferences(config, include_letters, include_digits, include_punctuatio
         config.write(configfile)
 
 def get_user_preferences():
-    include_letters = input("Include letters? (y/n): ").lower() == 'y'
-    include_digits = input("Include digits? (y/n): ").lower() == 'y'
-    include_punctuation = input("Include punctuation? (y/n): ").lower() == 'y'
-    length = int(input("Enter the number of characters for the password: "))
-    return include_letters, include_digits, include_punctuation, length
+    include_letters = input("Include letters? (y/n): ").lower()
+    include_digits = input("Include digits? (y/n): ").lower()
+    include_punctuation = input("Include punctuation? (y/n): ").lower()
+
+    # Validate user input
+    if include_letters not in ['y', 'n'] or include_digits not in ['y', 'n'] or include_punctuation not in ['y', 'n']:
+        raise ValueError("Invalid input. Please enter 'y' or 'n'.")
+
+    return include_letters == 'y', include_digits == 'y', include_punctuation == 'y', length
+
 
 def main():
     config = configparser.ConfigParser()
